@@ -1,0 +1,22 @@
+para el tema de permisos se dividen en 3 numeros 
+
+4 -> lectura
+2 -> escritura
+1 -> ejecucion
+
+si a un archivo le queremos dar todos los permisos ponemos 7 ya que es la suma de los 3
+si a un archivo le queremos dar solo lectura y escritura ponemos un 6
+si a un archivo le queremos dar solo lectura y ejecucion ponemos un 5
+
+para dar permisos 
+
+  $ chmod 777 nameFile
+
+para ejecutar un archivo de bash 
+
+  $ bash fileName.sh
+  $ ./fileName.sh
+
+para validar que el archivo que creamos no exista en nuestro sistema operativo 
+
+  $ type fileName
